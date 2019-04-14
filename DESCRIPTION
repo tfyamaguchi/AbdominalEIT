@@ -2,7 +2,7 @@ Package: AbdominalEIT
 Type: Package
 Title: This package was designed for electrical impedance tomography
 Version: 0.991
-Date: 2019-04-14
+Date: 2019-04-15
 Author: Tohru F. Yamaguchi
 Maintainer: Tohru F. Yamaguchi <yamaguchi.tohru@kao.co.jp>
 Depends:
