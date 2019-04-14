@@ -1,0 +1,16 @@
+AbdominalEIT-package    Solving the inverse problem of electrical
+                        impedance tomography
+bound                   Sample boundary data
+bound32R                Smoothing for boundary data; R implimation
+dtconv                  Extraction of essential data from sparse data
+                        set
+exdata                  Sample impedance data
+fem                     Main program for solving the inverse problem
+filta06                 Spatial filter
+plotelect               Plot the data
+plotelect64             Plot the data
+preprocess1             Preprocessing raw data
+preprocess2		          Preprceessing raw data
+Kirchhoff		            Kirichhoff's law
+captureImage		        Capture the image
+systembfort             for the fortran program systemb

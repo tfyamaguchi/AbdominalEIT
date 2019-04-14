@@ -1,0 +1,40 @@
+Package: AbdominalEIT
+Type: Package
+Title: This package was designed for electrical impedance tomography
+Version: 0.991
+Date: 2019-04-14
+Author: Tohru F. Yamaguchi
+Maintainer: Tohru F. Yamaguchi <yamaguchi.tohru@kao.co.jp>
+Depends:
+    R (>= 2.14.0),
+    MASS,
+    AbdominalEITextra,
+    splines,
+    pixmap,
+    snow,
+    doParallel,
+    foreach,
+    compiler,
+    akima,
+    grid,
+    Matrix,
+    gplots,
+    kernlab,
+    mlbench,
+    mixtools,
+    animation,
+    RGtk2,
+    rgl,
+    sn,
+    VGAM,
+    oro.dicom
+Description: This package was prepared for solving inverse problem of electrical
+    impedance tomography. This version of the software was intended for 64 electrode
+    system. Parallel computing was introduced. The boundary of subcutaneous fat and
+    anisotropic conductivities are estimated simultaniously. Image enhancement was
+    implemented.
+License: GPL-2
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2016-05-03 08:10:13 UTC; tfyamaguchi
+RoxygenNote: 6.1.1
